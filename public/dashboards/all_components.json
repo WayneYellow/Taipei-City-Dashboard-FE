@@ -4420,7 +4420,6 @@
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
 		},
-<<<<<<< HEAD
         "111911": {
 			"id": 111911, 
 			"index": "bubble_test",  
@@ -4430,7 +4429,6 @@
                 "unit":"個"
 			},
 			"name": "bubble_test", 
-=======
 		"111808": {
 			"id": 111808, 
 			"index": "factory",  
@@ -4465,15 +4463,12 @@
 				}
 			],
 			"name": "工廠分布", 
->>>>>>> 841cf027e703fe64f1a0a8fad0636d417ffbe3c0
 			"source": "???", 
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null, 
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
-<<<<<<< HEAD
-=======
 		},
 		"111809": {
 			"id": 111809, 
@@ -4500,7 +4495,6 @@
 			"links": [], 
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
->>>>>>> 841cf027e703fe64f1a0a8fad0636d417ffbe3c0
 		}
-	}
+	}}
 }
