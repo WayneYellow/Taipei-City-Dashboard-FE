@@ -34,8 +34,8 @@ import TimelineStackedChart from "./components/charts/TimelineStackedChart.vue";
 import MapLegend from "./components/charts/MapLegend.vue";
 import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
-import test from "./components/charts/test.vue";
 import LineChart from "./components/charts/LineChart.vue";
+import BubbleChart from "./components/charts/BubbleChart.vue";
 
 const app = createApp(App);
 
@@ -58,7 +58,7 @@ app.component("TimelineStackedChart", TimelineStackedChart);
 app.component("MapLegend", MapLegend);
 app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
-app.component("test", test);
 app.component("LineChart", LineChart);
+app.component("BubbleChart", BubbleChart);
 
 app.mount("#app");
