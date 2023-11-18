@@ -4367,6 +4367,55 @@
 			"links": [], 
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
+		},
+		"111807": {
+			"id": 111807, 
+			"index": "rpi",  
+			"map_config": [
+				{
+					"index": "rpi",
+					"paint": {
+						"circle-opacity": 0.6,
+						"circle-stroke-opacity": 0.6,
+						"circle-color": "#addd27",
+						"circle-radius": [
+							"interpolate",
+							["linear"],
+							["to-number", ["get", "rpi"]],
+							0,
+							0,
+							30,
+							100
+						]
+					},
+					"property": [
+						{ "key": "station", "name": "測站位置" }
+					],
+					"title": "水汙染", 
+					"type": "circle", 
+					"size": null, 
+					"icon": null
+				}
+			],
+			"chart_config": {
+				"types": ["MapLegend"]
+			},
+			"chart_data": [
+				{
+					"color": "#addd27",
+					"type": "fill",
+					"name": "高潛勢", 
+					"value": null, 
+					"unit": null
+				}
+			],
+			"name": "水汙染", 
+			"source": "???", 
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null, 
+			"update_freq_unit": null,  
+			"contributors": ["tuic"] 
 		}
 	}
 }

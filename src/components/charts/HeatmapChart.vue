@@ -74,7 +74,7 @@ const chartOptions = ref({
 		show: false,
 	},
 	legend: {
-		show: true,
+		show: false,
 	},
 	markers: {
 		size: 3,
@@ -82,6 +82,7 @@ const chartOptions = ref({
 	},
 	plotOptions: {
 		heatmap: {
+			distributed: true,
 			enableShades: false,
 			radius: 4,
 			colorScale: {
