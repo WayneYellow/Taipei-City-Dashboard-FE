@@ -4195,7 +4195,15 @@
 			"chart_config": {
 				"types": ["MapLegend"]
 			}, 
-			"chart_data": null,
+			"chart_data": [
+				{
+					"color": "#e30022", 
+					"type": "fill", 
+					"name": "易淹水區域", 
+					"value": null, 
+					"unit": null
+				}
+			],
 			"name": "易淹水區域", 
 			"source": "待更新", 
 			"time_from": null, 
