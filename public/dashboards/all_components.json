@@ -4229,6 +4229,32 @@
 			"links": [], 
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
+		},
+		"111803": {
+			"id": 111803, 
+			"index": "device_capacity",
+			"history_data": false, 
+			"history_data_color": null, 
+			"map_config": null, 
+			"chart_config": {
+				"color": ["#9c7a3e"], 
+				"types": ["ColumnChart"], 
+				"unit": "千瓦", 
+				"categories": [], 
+				"map_filter": null
+			},
+			"name": "裝置容量", 
+			"source": "台電", 
+			"time_from": "2023-01-01T23:59:59+08:00", 
+			"time_to": "2023-05-01T23:59:59+08:00", 
+			"update_freq": null, 
+			"update_freq_unit": null,
+			"short_desc": "...",
+			"long_desc": "...", 
+			"use_case": "...", 
+			"links": [], 
+			"tags": ["..."], 
+			"contributors": ["tuic"] 
 		}
 	}
 }
