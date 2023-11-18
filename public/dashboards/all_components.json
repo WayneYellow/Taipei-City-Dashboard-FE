@@ -4357,6 +4357,32 @@
 			],
 			"tags": [],
 			"contributors": ["tuic"]
+		},
+		"111806": {
+			"id": 111806, 
+			"index": "burn", 
+			"history_data": false, 
+			"history_data_color": null,
+			"map_config": null, 
+			"chart_config": {
+				"color": ["#ff0000", "#00ff00", "#0000ff"], 
+				"types": ["TimelineStackedChart"],
+				"unit": "千瓦",
+				"categories": [], 
+				"map_filter": null
+			},
+			"name": "焚化爐", 
+			"source": "???", 
+			"time_from": "???", 
+			"time_to": "???", 
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "...", 
+			"long_desc": "...", 
+			"use_case": "...", 
+			"links": [], 
+			"tags": ["..."], 
+			"contributors": ["tuic"] 
 		}
 	}
 }
