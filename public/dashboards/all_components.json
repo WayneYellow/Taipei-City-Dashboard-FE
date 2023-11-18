@@ -4416,6 +4416,9 @@
 			"source": "???", 
 			"time_from": null,
 			"time_to": null,
+			"short_desc": "提供歷史測站水汙染指標。",
+			"long_desc": "透過追蹤水汙染指標，提供全面的水質數據，包括不同地區、水域的變化趨勢。這使政策制定者能夠快速回應突發的水質問題，制定有針對性的防治措施，確保城市居民的飲用水安全及環境健康。",
+			"use_case": "...", 
 			"update_freq": null, 
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
@@ -4469,9 +4472,8 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#00ff00", "#ff0000"], 
-				"types": ["DistrictChart"],
+				"types": ["DistrictChart", "RadarChart"],
 				"unit": "單位",
-				"categories": [], 
 				"map_filter": null
 			},
 			"name": "綠化指數", 
