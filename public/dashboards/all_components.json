@@ -4107,6 +4107,32 @@
 			"update_freq": null, 
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
+		},
+		"201": {
+			"id": 201, 
+			"index": "electronic",
+			"history_data": false, 
+			"history_data_color": null, 
+			"map_config": null, 
+			"chart_config": {
+				"color": ["#9c7a3e"], 
+				"types": ["TimelineSeparateChart"], 
+				"unit": "千度", 
+				"categories": [], 
+				"map_filter": null
+			},
+			"name": "再生能源發電量/太陽光電(千度)", 
+			"source": "台電", 
+			"time_from": "2023-01-01T23:59:59+08:00", 
+			"time_to": "2023-05-01T23:59:59+08:00", 
+			"update_freq": null, 
+			"update_freq_unit": null,
+			"short_desc": "...",
+			"long_desc": "...", 
+			"use_case": "...", 
+			"links": [], 
+			"tags": ["..."], 
+			"contributors": ["tuic"] 
 		}
 	}
 }
