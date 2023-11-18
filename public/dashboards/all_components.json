@@ -4271,7 +4271,7 @@
 			"history_data_color": null, 
 			"map_config": null, 
 			"chart_config": {
-				"color": ["#9c7a3e"], 
+				"color": ["#9c7a3e", "#8844a3"], 
 				"types": ["LineChart", "ColumnChart"], 
 				"unit": "元/度", 
 				"categories": [], 
@@ -4321,17 +4321,14 @@
 				}
 			],
 			"chart_config": {
-				"types": ["MapLegend"]
-			}, 
-			"chart_data": [
-				{
-					"types": "fill",
-					"color": "#addd27",
-					"unit": null,
-					"value": null,
-					"name": "太陽能發電設備"
-				}
-			],
+				"color": ["#addd27"], 
+				"types": ["DistrictChart"], 
+				"unit": "千瓦",
+				"categories": [], 
+				"map_filter": [
+					
+				]
+			},
 			"source": "",
 			"name": "太陽能發電設備",
 			"time_from": "2023-05-31T00:00:00+08:00",

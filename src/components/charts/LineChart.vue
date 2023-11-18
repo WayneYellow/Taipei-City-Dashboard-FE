@@ -3,7 +3,10 @@
 <script setup>
 import { ref } from "vue";
 
-const props = defineProps(["chart_config", "activeChart", "series"]);
+import { useMapStore } from '../../store/mapStore';
+
+const props = defineProps(['chart_config', 'activeChart', 'series', 'map_config']);
+const mapStore = useMapStore();
 
 
 const chartOptions = ref({
@@ -24,7 +27,8 @@ const chartOptions = ref({
 		show: false,
 	},
 	legend: {
-		show: props.series.length > 1 ? true : false,
+		// show: props.series.length > 1 ? true : false,
+		show: props.chart_config.categories ? true : false,
 	},
 	markers: {
 		hover: {
@@ -42,22 +46,28 @@ const chartOptions = ref({
 	},
 	tooltip: {
 		custom: function ({ series, seriesIndex, dataPointIndex, w }) {
-			// The class "chart-tooltip" could be edited in /assets/styles/chartStyles.css
-			return (
-				'<div class="chart-tooltip">' +
-				"<h6>" +
-				`${parseTime(
-					w.config.series[seriesIndex].data[dataPointIndex].x
-				)}` +
-				` - ${w.globals.seriesNames[seriesIndex]}` +
-				"</h6>" +
-				"<span>" +
-				series[seriesIndex][dataPointIndex] +
-				` ${props.chart_config.unit}` +
-				"</span>" +
-				"</div>"
-			);
+			return '<div class="chart-tooltip">' +
+				'<h6>' + w.config.series[seriesIndex].data[dataPointIndex].x + `${props.chart_config.categories ? '-' + w.globals.seriesNames[seriesIndex] : ''}` + '</h6>' +
+				'<span>' + series[seriesIndex][dataPointIndex] + ` ${props.chart_config.unit}` + '</span>' +
+				'</div>';
 		},
+		// custom: function ({ series, seriesIndex, dataPointIndex, w }) {
+		// 	// The class "chart-tooltip" could be edited in /assets/styles/chartStyles.css
+		// 	return (
+		// 		'<div class="chart-tooltip">' +
+		// 		"<h6>" +
+		// 		`${parseTime(
+		// 			w.config.series[seriesIndex].data[dataPointIndex].x
+		// 		)}` +
+		// 		` - ${w.globals.seriesNames[seriesIndex]}` +
+		// 		"</h6>" +
+		// 		"<span>" +
+		// 		series[seriesIndex][dataPointIndex] +
+		// 		` ${props.chart_config.unit}` +
+		// 		"</span>" +
+		// 		"</div>"
+		// 	);
+		// },
 	},
 	xaxis: {
 		// axisBorder: {
@@ -84,13 +94,34 @@ const chartOptions = ref({
 		// labels: {
 		// 	show: false,
 		// },
+		categories: props.chart_config.categories ? props.chart_config.categories : [],
+		labels: {
+			offsetY: 5,
+		},
 		type: 'category',
 	},
 });
 
-function parseTime(time) {
-	return time.replace("T", " ").replace("+08:00", " ");
+// function parseTime(time) {
+// 	return time.replace("T", " ").replace("+08:00", " ");
+// }
+
+const selectedIndex = ref(null);
+
+function handleDataSelection(e, chartContext, config) {
+	if (!props.chart_config.map_filter) {
+		return;
+	}
+	const toFilter = config.dataPointIndex;
+	if (toFilter !== selectedIndex.value) {
+		mapStore.addLayerFilter(`${props.map_config[0].index}-${props.map_config[0].type}`, props.chart_config.map_filter[0], props.chart_config.map_filter[1][toFilter]);
+		selectedIndex.value = toFilter;
+	} else {
+		mapStore.clearLayerFilter(`${props.map_config[0].index}-${props.map_config[0].type}`);
+		selectedIndex.value = null;
+	}
 }
+
 </script>
 
 <template>
@@ -101,6 +132,7 @@ function parseTime(time) {
 			type="line"
 			:options="chartOptions"
 			:series="series"
+			@dataPointSelection="handleDataSelection"
 		></apexchart>
 	</div>
 </template>
