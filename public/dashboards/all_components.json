@@ -4386,17 +4386,32 @@
 				}
 			],
 			"chart_config": {
-				"types": ["MapLegend"]
+				"color": ["#addd27"], 
+				"types": ["ColumnChart"], 
+				"unit": "單位", 
+				"categories": [], 
+				"map_filter": [
+				"station",
+					[
+						"大直橋",
+						"大豐停車場",
+						"山豬窟溪",
+						"永福橋",
+						"成功橋",
+						"承德橋",
+						"恆光橋",
+						"復興橋",
+						"景美橋",
+						"菁礐溪",
+						"陽明山",
+						"新貴子坑",
+						"萬福橋",
+						"臺北橋",
+						"磺溪橋",
+						"雙溪取水口"
+					]
+				]
 			},
-			"chart_data": [
-				{
-					"color": "#addd27",
-					"type": "fill",
-					"name": "高潛勢", 
-					"value": null, 
-					"unit": null
-				}
-			],
 			"name": "水汙染", 
 			"source": "???", 
 			"time_from": null,
