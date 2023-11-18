@@ -64,7 +64,7 @@ const chartOptions = ref({
 		},
 	},
 	dataLabels: {
-		distributed: true,
+		distributed: false,
 		style: {
 			fontSize: '12px',
 			fontWeight: 'normal'
@@ -74,7 +74,7 @@ const chartOptions = ref({
 		show: false,
 	},
 	legend: {
-		show: false,
+		show: true,
 	},
 	markers: {
 		size: 3,
