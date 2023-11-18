@@ -4262,15 +4262,15 @@
 					"paint": {
 						"circle-opacity": 0.6,
 						"circle-stroke-opacity": 0.6,
-						"circle-color": "#addd27",
+						"circle-color": "#4675ff  ",
 						"circle-radius": [
 							"interpolate",
 							["linear"],
 							["to-number", ["get", "capacity"]],
 							0,
 							0,
-							200,
-							60
+							100,
+							40
 						]
 					},
 					"property": [
@@ -4284,7 +4284,7 @@
 				}
 			],
 			"chart_config": {
-				"color": ["#addd27", "#424548"], 
+				"color": ["#4675ff  "], 
 				"types": ["DistrictChart"], 
 				"unit": "千瓦",
 				"categories": [], 
@@ -4329,7 +4329,7 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#ff0000", "#00ff00", "#0000ff"], 
-				"types": ["TimelineStackedChart", "HeatmapChart"],
+				"types": ["TimelineSeparateChart", "HeatmapChart"],
 				"unit": "百萬瓦",
 				"categories": [], 
 				"map_filter": null
@@ -4414,7 +4414,7 @@
 					"paint": {
 						"circle-opacity": 0.6,
 						"circle-stroke-opacity": 0.6,
-						"circle-color": "#addd27"
+						"circle-color": "#ffc40c"
 						
 					},
 					"property": [
@@ -4431,7 +4431,7 @@
 			},
 			"chart_data": [
 				{
-					"color": "#addd27",
+					"color": "#ffc40c",
 					"type": "fill",
 					"name": "工廠分布", 
 					"value": null, 
