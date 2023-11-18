@@ -4188,7 +4188,7 @@
 				"categories": [], 
 				"map_filter": null
 			},
-			"name": "再生能源發電量", 
+			"name": "太陽能發電量", 
 			"source": "台電", 
 			"time_from": "2018-01-01T00:00:00Z", 
 			"time_to": "2022-01-01T00:00:00Z", 
