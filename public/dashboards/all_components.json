@@ -4281,6 +4281,36 @@
 			"links": [], 
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
+		},
+		"111805": {
+			"id": 111805, 
+			"index": "solarDevice", 
+			"map_config": [
+				{
+					"index": "solarDevice",
+					
+					"paint": {
+						"circle-color": "#e30022"
+					},
+					"property": [
+						
+					], 
+					"title": "太陽能板分布", 
+					"type": "circle", 
+					"size": null
+				}
+			],
+			"chart_config": {
+				"types": ["MapLegend"]
+			}, 
+			"chart_data": null,
+			"name": "太陽能板分布", 
+			"source": "待更新", 
+			"time_from": null, 
+			"time_to": null, 
+			"update_freq": null, 
+			"update_freq_unit": null,  
+			"contributors": ["tuic"] 
 		}
 	}
 }
