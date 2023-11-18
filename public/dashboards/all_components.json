@@ -4329,8 +4329,8 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#ff0000", "#00ff00", "#0000ff"], 
-				"types": ["TimelineStackedChart"],
-				"unit": "千瓦",
+				"types": ["TimelineStackedChart", "HeatmapChart"],
+				"unit": "百萬瓦",
 				"categories": [], 
 				"map_filter": null
 			},
@@ -4374,6 +4374,15 @@
 					"type": "circle", 
 					"size": null, 
 					"icon": null
+				},
+				{
+					"index": "riverArea",
+					"paint": {
+						"fill-color": "#1e90ff"
+					},
+					"property": null,
+					"title": "河流", 
+					"type": "fill"
 				}
 			],
 			"chart_config": {
