@@ -4175,6 +4175,51 @@
 			"contributors": ["tuic"]
 		},
 		
+		"111801": {
+			"id": 111801, 
+			"index": "floodingMap", 
+			"map_config": [
+				{
+					"index": "floodingMap",
+					
+					"paint": {
+						"fill-color": "#e30022"
+					},
+					"property": [
+						
+					], 
+					"title": "易淹水區域", 
+					"type": "fill", 
+					"size": null
+				}
+			],
+			"chart_config": {
+				"types": ["MapLegend"]
+			}, 
+			"chart_data": [
+				{
+					"color": "#e30022", 
+					"type": "fill", 
+					"name": "易淹水區域", 
+					"value": null, 
+					"unit": null
+				},
+				{
+					"color": "#00ff00", 
+					"type": "fill", 
+					"name": "不易淹水區域", 
+					"value": null, 
+					"unit": null
+				}
+			],
+			"name": "易淹水區域", 
+			"source": "待更新", 
+			"time_from": null, 
+			"time_to": null, 
+			"update_freq": null, 
+			"update_freq_unit": null,  
+			"contributors": ["tuic"] 
+		},
 		"111802": {
 			"id": 111802, 
 			"index": "electronic",
@@ -4183,7 +4228,7 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#9c7a3e"], 
-				"types": [ "ColumnChart"], 
+				"types": ["LineChart"], 
 				"unit": "千度", 
 				"categories": [], 
 				"map_filter": null
@@ -4234,8 +4279,8 @@
 			"history_data_color": null, 
 			"map_config": null, 
 			"chart_config": {
-				"color": ["#9c7a3e"], 
-				"types": ["TimelineStackedChart"], 
+				"color": ["#9c7a3e", "#8844a3"], 
+				"types": ["LineChart", "ColumnChart"], 
 				"unit": "元/度", 
 				"categories": [], 
 				"map_filter": null
@@ -4284,13 +4329,30 @@
 				}
 			],
 			"chart_config": {
-				"types": ["BarPercentChart", "GuageChart"],
-				"color": ["#9DC56E", "#356340", "#9DC56E"],
+				"color": ["#addd27", "#424548"], 
+				"types": ["DistrictChart"], 
 				"unit": "千瓦",
-				"categories": ["太陽能發電設備"]
+				"categories": [], 
+				"map_filter": [
+					"town",
+					[
+						"北投區",
+						"士林區",
+						"內湖區",
+						"南港區",
+						"松山區",
+						"信義區",
+						"中山區",
+						"大同區",
+						"中正區",
+						"萬華區",
+						"大安區",
+						"文山區"
+					]
+				]
 			},
 			"source": "",
-			"name": "",
+			"name": "太陽能發電設備",
 			"time_from": "2023-05-31T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": 5,
@@ -4323,7 +4385,28 @@
 			"time_to": "2022-01-01T00:00:00Z", 
 			"update_freq": null, 
 			"update_freq_unit": null,
-			"short_desc": "...",
+			"short_desc": "..."
+        },
+		"111806": {
+			"id": 111806, 
+			"index": "burn", 
+			"history_data": false, 
+			"history_data_color": null,
+			"map_config": null, 
+			"chart_config": {
+				"color": ["#ff0000", "#00ff00", "#0000ff"], 
+				"types": ["TimelineStackedChart"],
+				"unit": "千瓦",
+				"categories": [], 
+				"map_filter": null
+			},
+			"name": "焚化爐", 
+			"source": "???", 
+			"time_from": "???", 
+			"time_to": "???", 
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "...", 
 			"long_desc": "...", 
 			"use_case": "...", 
 			"links": [], 

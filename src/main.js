@@ -35,6 +35,7 @@ import MapLegend from "./components/charts/MapLegend.vue";
 import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
 import test from "./components/charts/test.vue";
+import LineChart from "./components/charts/LineChart.vue";
 
 const app = createApp(App);
 
@@ -58,5 +59,6 @@ app.component("MapLegend", MapLegend);
 app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
 app.component("test", test);
+app.component("LineChart", LineChart);
 
 app.mount("#app");

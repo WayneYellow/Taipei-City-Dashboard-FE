@@ -12,6 +12,7 @@ const districtColor = ref(props.chart_config.color[0]);
 const mousePosition = ref({ x: null, y: null });
 const selectedIndex = ref(null);
 
+
 // Parse District Data (to support 2D or 3D data)
 const districtData = computed(() => {
 	let output = {};
@@ -36,9 +37,10 @@ const districtData = computed(() => {
 		});
 		highest = Object.values(output).sort(function (a, b) { return b - a; })[0];
 		sum = Object.values(output).reduce((partialSum, a) => partialSum + a, 0);
+		
 	}
-
 	output.highest = highest;
+	sum = sum.toFixed(0); // "14781.59"
 	output.sum = sum;
 	return output;
 });
@@ -76,6 +78,7 @@ function handleDataSelection(index) {
 		<div class="districtchart-title">
 			<h5>總合</h5>
 			<h6>{{ districtData.sum }} {{ chart_config.unit }}</h6>
+			<p>{{ districtData.record }}</p>
 			<div class="districtchart-title-legend">
 				<p>多</p>
 				<div :style="{ backgroundColor: props.chart_config.color[0] }"></div>
