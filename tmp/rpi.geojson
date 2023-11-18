@@ -7,20 +7,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.0762257,
-          121.5443425
+          121.5443425,
+          25.0762257
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "大直橋",
-        "positionlon": 121.5443425,
-        "positionlat": 25.0762257,
+        "positionlon": "121.5443425",
+        "positionlat": "25.0762257",
         "rpi": "5.25"
       },
       "bbox": [
-        121.5443425,
-        25.0762257
+        "121.5443425",
+        "25.0762257"
       ]
     },
     {
@@ -29,20 +29,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.13114444,
-          121.50451111
+          121.50451111,
+          25.13114444
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "大豐停車場",
-        "positionlon": 121.50451111,
-        "positionlat": 25.13114444,
+        "positionlon": "121.50451111",
+        "positionlat": "25.13114444",
         "rpi": "4.5"
       },
       "bbox": [
-        121.50451111,
-        25.13114444
+        "121.50451111",
+        "25.13114444"
       ]
     },
     {
@@ -51,20 +51,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.03333333,
-          121.62459166
+          121.62459166,
+          25.03333333
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "山豬窟溪",
-        "positionlon": 121.62459166,
-        "positionlat": 25.03333333,
+        "positionlon": "121.62459166",
+        "positionlat": "25.03333333",
         "rpi": "1"
       },
       "bbox": [
-        121.62459166,
-        25.03333333
+        "121.62459166",
+        "25.03333333"
       ]
     },
     {
@@ -73,20 +73,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.01198333,
-          121.52838333
+          121.52838333,
+          25.01198333
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "永福橋",
-        "positionlon": 121.52838333,
-        "positionlat": 25.01198333,
+        "positionlon": "121.52838333",
+        "positionlat": "25.01198333",
         "rpi": "3.25"
       },
       "bbox": [
-        121.52838333,
-        25.01198333
+        "121.52838333",
+        "25.01198333"
       ]
     },
     {
@@ -95,20 +95,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.0591,
-          121.59186666
+          121.59186666,
+          25.0591
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "成功橋",
-        "positionlon": 121.59186666,
-        "positionlat": 25.0591,
+        "positionlon": "121.59186666",
+        "positionlat": "25.05910000",
         "rpi": "4"
       },
       "bbox": [
-        121.59186666,
-        25.0591
+        "121.59186666",
+        "25.05910000"
       ]
     },
     {
@@ -117,20 +117,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.07703333,
-          121.52105
+          121.52105,
+          25.07703333
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "承德橋",
-        "positionlon": 121.52105,
-        "positionlat": 25.07703333,
+        "positionlon": "121.52105000",
+        "positionlat": "25.07703333",
         "rpi": "5.5"
       },
       "bbox": [
-        121.52105,
-        25.07703333
+        "121.52105000",
+        "25.07703333"
       ]
     },
     {
@@ -139,20 +139,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.98033333,
-          121.56773333
+          121.56773333,
+          24.98033333
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "恆光橋",
-        "positionlon": 121.56773333,
-        "positionlat": 24.98033333,
+        "positionlon": "121.56773333",
+        "positionlat": "24.98033333",
         "rpi": "2"
       },
       "bbox": [
-        121.56773333,
-        24.98033333
+        "121.56773333",
+        "24.98033333"
       ]
     },
     {
@@ -161,20 +161,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.10048333,
-          121.5365
+          121.5365,
+          25.10048333
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "復興橋",
-        "positionlon": 121.5365,
-        "positionlat": 25.10048333,
+        "positionlon": "121.53650000",
+        "positionlat": "25.10048333",
         "rpi": "1"
       },
       "bbox": [
-        121.5365,
-        25.10048333
+        "121.53650000",
+        "25.10048333"
       ]
     },
     {
@@ -183,20 +183,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.98843333,
-          121.53633333
+          121.53633333,
+          24.98843333
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "景美橋",
-        "positionlon": 121.53633333,
-        "positionlat": 24.98843333,
+        "positionlon": "121.53633333",
+        "positionlat": "24.98843333",
         "rpi": "2.75"
       },
       "bbox": [
-        121.53633333,
-        24.98843333
+        "121.53633333",
+        "24.98843333"
       ]
     },
     {
@@ -205,20 +205,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.11343333,
-          121.5661
+          121.5661,
+          25.11343333
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "菁礐溪",
-        "positionlon": 121.5661,
-        "positionlat": 25.11343333,
+        "positionlon": "121.56610000",
+        "positionlat": "25.11343333",
         "rpi": "1"
       },
       "bbox": [
-        121.5661,
-        25.11343333
+        "121.56610000",
+        "25.11343333"
       ]
     },
     {
@@ -227,20 +227,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.16065,
-          121.53298055
+          121.53298055,
+          25.16065
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "陽明山",
-        "positionlon": 121.53298055,
-        "positionlat": 25.16065,
+        "positionlon": "121.53298055",
+        "positionlat": "25.16065000",
         "rpi": "1"
       },
       "bbox": [
-        121.53298055,
-        25.16065
+        "121.53298055",
+        "25.16065000"
       ]
     },
     {
@@ -249,20 +249,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.14596944,
-          121.49291944
+          121.49291944,
+          25.14596944
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "新貴子坑",
-        "positionlon": 121.49291944,
-        "positionlat": 25.14596944,
+        "positionlon": "121.49291944",
+        "positionlat": "25.14596944",
         "rpi": "1"
       },
       "bbox": [
-        121.49291944,
-        25.14596944
+        "121.49291944",
+        "25.14596944"
       ]
     },
     {
@@ -271,20 +271,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.00186666,
-          121.5935
+          121.5935,
+          25.00186666
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "萬福橋",
-        "positionlon": 121.5935,
-        "positionlat": 25.00186666,
+        "positionlon": "121.59350000",
+        "positionlat": "25.00186666",
         "rpi": "3.25"
       },
       "bbox": [
-        121.5935,
-        25.00186666
+        "121.59350000",
+        "25.00186666"
       ]
     },
     {
@@ -293,20 +293,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.065009,
-          121.506722
+          121.506722,
+          25.065009
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "臺北橋",
-        "positionlon": 121.506722,
-        "positionlat": 25.065009,
+        "positionlon": "121.50672200",
+        "positionlat": "25.06500900",
         "rpi": "6"
       },
       "bbox": [
-        121.506722,
-        25.065009
+        "121.50672200",
+        "25.06500900"
       ]
     },
     {
@@ -315,20 +315,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.11866666,
-          121.524
+          121.524,
+          25.11866666
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "磺溪橋",
-        "positionlon": 121.524,
-        "positionlat": 25.11866666,
+        "positionlon": "121.52400000",
+        "positionlat": "25.11866666",
         "rpi": "1"
       },
       "bbox": [
-        121.524,
-        25.11866666
+        "121.52400000",
+        "25.11866666"
       ]
     },
     {
@@ -337,20 +337,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.11375,
-          121.57011666
+          121.57011666,
+          25.11375
         ]
       },
       "geometry_name": "wkb_geometry",
       "properties": {
         "station": "雙溪取水口",
-        "positionlon": 121.57011666,
-        "positionlat": 25.11375,
+        "positionlon": "121.57011666",
+        "positionlat": "25.1137500",
         "rpi": "1"
       },
       "bbox": [
-        121.57011666,
-        25.11375
+        "121.57011666",
+        "25.1137500"
       ]
     }
   ]
