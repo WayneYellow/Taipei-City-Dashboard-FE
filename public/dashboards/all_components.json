@@ -4395,6 +4395,47 @@
 			"update_freq": null, 
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
+		},
+		"111808": {
+			"id": 111808, 
+			"index": "factory",  
+			"map_config": [
+				{
+					"index": "factory",
+					"paint": {
+						"circle-opacity": 0.6,
+						"circle-stroke-opacity": 0.6,
+						"circle-color": "#addd27"
+						
+					},
+					"property": [
+						{ "key": "fact_name", "name": "工廠名稱" }
+					],
+					"title": "工廠分布", 
+					"type": "circle", 
+					"size": null, 
+					"icon": null
+				}
+			],
+			"chart_config": {
+				"types": ["MapLegend"]
+			},
+			"chart_data": [
+				{
+					"color": "#addd27",
+					"type": "fill",
+					"name": "工廠分布", 
+					"value": null, 
+					"unit": null
+				}
+			],
+			"name": "工廠分布", 
+			"source": "???", 
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null, 
+			"update_freq_unit": null,  
+			"contributors": ["tuic"] 
 		}
 	}
 }
