@@ -4262,15 +4262,15 @@
 					"paint": {
 						"circle-opacity": 0.6,
 						"circle-stroke-opacity": 0.6,
-						"circle-color": "#addd27",
+						"circle-color": "#4675ff  ",
 						"circle-radius": [
 							"interpolate",
 							["linear"],
 							["to-number", ["get", "capacity"]],
 							0,
 							0,
-							200,
-							60
+							100,
+							40
 						]
 					},
 					"property": [
@@ -4284,7 +4284,7 @@
 				}
 			],
 			"chart_config": {
-				"color": ["#addd27", "#424548"], 
+				"color": ["#4675ff  "], 
 				"types": ["DistrictChart", "ColumnChart"], 
 				"unit": "千瓦",
 				"categories": [], 
@@ -4329,8 +4329,8 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#ff0000", "#00ff00", "#0000ff"], 
-				"types": ["TimelineStackedChart", "ColumnChart"],
-				"unit": "千瓦",
+				"types": ["TimelineSeparateChart", "HeatmapChart", "ColumnChart"],
+				"unit": "百萬瓦",
 				"categories": [], 
 				"map_filter": null
 			},
@@ -4374,20 +4374,44 @@
 					"type": "circle", 
 					"size": null, 
 					"icon": null
+				},
+				{
+					"index": "riverArea",
+					"paint": {
+						"fill-color": "#1e90ff"
+					},
+					"property": null,
+					"title": "河流", 
+					"type": "fill"
 				}
 			],
 			"chart_config": {
-				"types": ["MapLegend"]
+				"color": ["#addd27"], 
+				"types": ["ColumnChart"], 
+				"unit": "單位", 
+				"categories": [], 
+				"map_filter": [
+				"station",
+					[
+						"大直橋",
+						"大豐停車場",
+						"山豬窟溪",
+						"永福橋",
+						"成功橋",
+						"承德橋",
+						"恆光橋",
+						"復興橋",
+						"景美橋",
+						"菁礐溪",
+						"陽明山",
+						"新貴子坑",
+						"萬福橋",
+						"臺北橋",
+						"磺溪橋",
+						"雙溪取水口"
+					]
+				]
 			},
-			"chart_data": [
-				{
-					"color": "#addd27",
-					"type": "fill",
-					"name": "高潛勢", 
-					"value": null, 
-					"unit": null
-				}
-			],
 			"name": "水汙染", 
 			"source": "???", 
 			"time_from": null,
@@ -4396,6 +4420,7 @@
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
 		},
+<<<<<<< HEAD
         "111911": {
 			"id": 111911, 
 			"index": "bubble_test",  
@@ -4405,12 +4430,77 @@
                 "unit":"個"
 			},
 			"name": "bubble_test", 
+=======
+		"111808": {
+			"id": 111808, 
+			"index": "factory",  
+			"map_config": [
+				{
+					"index": "factory",
+					"paint": {
+						"circle-opacity": 0.6,
+						"circle-stroke-opacity": 0.6,
+						"circle-color": "#ffc40c"
+						
+					},
+					"property": [
+						{ "key": "fact_name", "name": "工廠名稱" }
+					],
+					"title": "工廠分布", 
+					"type": "circle", 
+					"size": null, 
+					"icon": null
+				}
+			],
+			"chart_config": {
+				"types": ["MapLegend"]
+			},
+			"chart_data": [
+				{
+					"color": "#ffc40c",
+					"type": "fill",
+					"name": "工廠分布", 
+					"value": null, 
+					"unit": null
+				}
+			],
+			"name": "工廠分布", 
+>>>>>>> 841cf027e703fe64f1a0a8fad0636d417ffbe3c0
 			"source": "???", 
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null, 
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
+<<<<<<< HEAD
+=======
+		},
+		"111809": {
+			"id": 111809, 
+			"index": "green_land", 
+			"history_data": false, 
+			"history_data_color": null,
+			"map_config": null, 
+			"chart_config": {
+				"color": ["#00ff00", "#ff0000"], 
+				"types": ["DistrictChart"],
+				"unit": "單位",
+				"categories": [], 
+				"map_filter": null
+			},
+			"name": "綠化指數", 
+			"source": "???", 
+			"time_from": "2003-01-01", 
+			"time_to": "2022-01-01", 
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "???", 
+			"long_desc": "???", 
+			"use_case": "???", 
+			"links": [], 
+			"tags": ["..."], 
+			"contributors": ["tuic"] 
+>>>>>>> 841cf027e703fe64f1a0a8fad0636d417ffbe3c0
 		}
 	}
 }
