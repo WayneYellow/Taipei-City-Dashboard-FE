@@ -4321,7 +4321,7 @@
 				}
 			],
 			"chart_config": {
-				"color": ["#addd27"], 
+				"color": ["#addd27", "#424548"], 
 				"types": ["DistrictChart"], 
 				"unit": "千瓦",
 				"categories": [], 
