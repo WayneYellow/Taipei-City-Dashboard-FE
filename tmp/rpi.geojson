@@ -1,0 +1,357 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0762257,
+          121.5443425
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "大直橋",
+        "positionlon": 25.0762257,
+        "positionlat": 121.5443425,
+        "rpi": "5.25"
+      },
+      "bbox": [
+        25.0762257,
+        121.5443425
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.13114444,
+          121.50451111
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "大豐停車場",
+        "positionlon": 25.13114444,
+        "positionlat": 121.50451111,
+        "rpi": "4.5"
+      },
+      "bbox": [
+        25.13114444,
+        121.50451111
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.03333333,
+          121.62459166
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "山豬窟溪",
+        "positionlon": 25.03333333,
+        "positionlat": 121.62459166,
+        "rpi": "1"
+      },
+      "bbox": [
+        25.03333333,
+        121.62459166
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.01198333,
+          121.52838333
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "永福橋",
+        "positionlon": 25.01198333,
+        "positionlat": 121.52838333,
+        "rpi": "3.25"
+      },
+      "bbox": [
+        25.01198333,
+        121.52838333
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0591,
+          1121.59186666
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "成功橋",
+        "positionlon": 25.0591,
+        "positionlat": 1121.59186666,
+        "rpi": "4"
+      },
+      "bbox": [
+        25.0591,
+        1121.59186666
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.07703333,
+          121.52105
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "承德橋",
+        "positionlon": 25.07703333,
+        "positionlat": 121.52105,
+        "rpi": "5.5"
+      },
+      "bbox": [
+        25.07703333,
+        121.52105
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.98033333,
+          121.56773333
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "恆光橋",
+        "positionlon": 24.98033333,
+        "positionlat": 121.56773333,
+        "rpi": "2"
+      },
+      "bbox": [
+        24.98033333,
+        121.56773333
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.10048333,
+          121.5365
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "復興橋",
+        "positionlon": 25.10048333,
+        "positionlat": 121.5365,
+        "rpi": "1"
+      },
+      "bbox": [
+        25.10048333,
+        121.5365
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.98843333,
+          121.53633333
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "景美橋",
+        "positionlon": 24.98843333,
+        "positionlat": 121.53633333,
+        "rpi": "2.75"
+      },
+      "bbox": [
+        24.98843333,
+        121.53633333
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.11343333,
+          121.5661
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "菁礐溪",
+        "positionlon": 25.11343333,
+        "positionlat": 121.5661,
+        "rpi": "1"
+      },
+      "bbox": [
+        25.11343333,
+        121.5661
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.16065,
+          121.53298055
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "陽明山",
+        "positionlon": 25.16065,
+        "positionlat": 121.53298055,
+        "rpi": "1"
+      },
+      "bbox": [
+        25.16065,
+        121.53298055
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.14596944,
+          121.49291944
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "新貴子坑",
+        "positionlon": 25.14596944,
+        "positionlat": 121.49291944,
+        "rpi": "1"
+      },
+      "bbox": [
+        25.14596944,
+        121.49291944
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.00186666,
+          121.5935
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "萬福橋",
+        "positionlon": 25.00186666,
+        "positionlat": 121.5935,
+        "rpi": "3.25"
+      },
+      "bbox": [
+        25.00186666,
+        121.5935
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.065009,
+          121.506722
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "臺北橋",
+        "positionlon": 25.065009,
+        "positionlat": 121.506722,
+        "rpi": "6"
+      },
+      "bbox": [
+        25.065009,
+        121.506722
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.11866666,
+          121.524
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "磺溪橋",
+        "positionlon": 25.11866666,
+        "positionlat": 121.524,
+        "rpi": "1"
+      },
+      "bbox": [
+        25.11866666,
+        121.524
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.11375,
+          121.57011666
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "雙溪取水口",
+        "positionlon": 25.11375,
+        "positionlat": 121.57011666,
+        "rpi": "1"
+      },
+      "bbox": [
+        25.11375,
+        121.57011666
+      ]
+    }
+  ]
+}
