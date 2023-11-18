@@ -4077,6 +4077,36 @@
 				"https://github.com/tpe-doit/YouBike-Optimization"
 			],
 			"contributors": ["tuic"]
+		},
+		"200": {
+			"id": 200, 
+			"index": "floodingMap", 
+			"map_config": [
+				{
+					"index": "floodingMap",
+					
+					"paint": {
+						"fill-color": "#e30022"
+					},
+					"property": [
+						
+					], 
+					"title": "易淹水區域", 
+					"type": "fill", 
+					"size": null
+				}
+			],
+			"chart_config": {
+				"types": ["MapLegend"]
+			}, 
+			"chart_data": null,
+			"name": "易淹水區域", 
+			"source": "待更新", 
+			"time_from": null, 
+			"time_to": null, 
+			"update_freq": null, 
+			"update_freq_unit": null,  
+			"contributors": ["tuic"] 
 		}
 	}
 }
