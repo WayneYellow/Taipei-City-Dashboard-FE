@@ -4230,8 +4230,60 @@
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
 		},
-		"111803": {
-			"id": 111803,
+		"111803":{
+			"id": 111803, 
+			"index": "device_capacity",
+			"history_data": false, 
+			"history_data_color": null, 
+			"map_config": null, 
+			"chart_config": {
+				"color": ["#9c7a3e"], 
+				"types": ["ColumnChart"], 
+				"unit": "千瓦", 
+				"categories": [], 
+				"map_filter": null
+			},
+			"name": "裝置容量", 
+			"source": "台電", 
+			"time_from": "2023-01-01T23:59:59+08:00", 
+			"time_to": "2023-05-01T23:59:59+08:00", 
+			"update_freq": null, 
+			"update_freq_unit": null,
+			"short_desc": "...",
+			"long_desc": "...", 
+			"use_case": "...", 
+			"links": [], 
+			"tags": ["..."], 
+			"contributors": ["tuic"] 
+		},
+		"111804": {
+			"id": 111804, 
+			"index":"prices",
+			"history_data": false, 
+			"history_data_color": null, 
+			"map_config": null, 
+			"chart_config": {
+				"color": ["#9c7a3e"], 
+				"types": ["TimelineStackedChart"], 
+				"unit": "元/度", 
+				"categories": [], 
+				"map_filter": null
+			},
+			"name": "價格", 
+			"source": "台電", 
+			"time_from": "2023-01-01T23:59:59+08:00", 
+			"time_to": "2023-05-01T23:59:59+08:00", 
+			"update_freq": null, 
+			"update_freq_unit": null,
+			"short_desc": "...",
+			"long_desc": "...", 
+			"use_case": "...", 
+			"links": [], 
+			"tags": ["..."], 
+			"contributors": ["tuic"] 
+		},
+		"111805": {
+			"id": 111805,
 			"index": "solarcell",
 			"map_config": [
 				{
@@ -4254,44 +4306,32 @@
 						{
 							"key": "station",
 							"name": "場站名稱"
-						},
-						{
-							"key": "station_id",
-							"name": "場站ID"
-						},
-						{
-							"key": "total_bikes",
-							"name": "總車輛數"
-						},
-						{
-							"key": "left_bikes",
-							"name": "剩餘車輛"
 						}
 					],
 					"type": "circle",
-					"title": "youbike站點"
+					"title": "太陽能發電設備"
 				}
 			],
 			"chart_config": {
 				"types": ["BarPercentChart", "GuageChart"],
 				"color": ["#9DC56E", "#356340", "#9DC56E"],
-				"unit": "輛",
-				"categories": ["Youbike在站車輛"]
+				"unit": "千瓦",
+				"categories": ["太陽能發電設備"]
 			},
-			"source": "交通局",
-			"name": "YouBike使用情況(Alt)",
+			"source": "",
+			"name": "",
 			"time_from": "2023-05-31T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": 5,
 			"update_freq_unit": "minute",
-			"short_desc": "顯示當前全市共享單車YouBike的使用情況",
-			"long_desc": "顯示當前全市共享單車YouBike的使用情況，包括可借車輛總數和可還車位總數，資料來源為微笑單車公司公開資料，每5分鐘更新。",
-			"use_case": "藉由YouBike使用情況的顯示，包括可借車輛總數及可還車位總數，我們可以了解全市YouBike使用情況，並在地圖模式查詢各站點詳細資訊。",
+			"short_desc": "",
+			"long_desc": "",
+			"use_case": "",
 			"links": [
-				"https://tdx.transportdata.tw/api-service/swagger/basic/2cc9b888-a592-496f-99de-9ab35b7fb70d#/Bike/BikeApi_Availability_2181"
+				""
 			],
 			"tags": [],
 			"contributors": ["tuic"]
-		},
+		}
 	}
 }
