@@ -119,7 +119,7 @@ const chartOptions = ref({
 			}
 		},
 		tooltip: {
-			enabled: false
+			enabled: false,
 		},
 		type: 'category',
 	},

@@ -4413,7 +4413,7 @@
 				]
 			},
 			"name": "水汙染", 
-			"source": "???", 
+			"source": "臺北市環境品質資訊網", 
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null, 
@@ -4428,8 +4428,9 @@
 				"types": ["BubbleChart"],
                 "unit":"個"
 			},
-			"name": "bubble_test", 
-		"111808": {
+			"name": "bubble_test"
+		},
+        "111808": {
 			"id": 111808, 
 			"index": "factory",  
 			"map_config": [
@@ -4496,5 +4497,5 @@
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
 		}
-	}}
+    }
 }
