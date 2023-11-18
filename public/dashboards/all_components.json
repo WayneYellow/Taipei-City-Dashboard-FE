@@ -4436,6 +4436,32 @@
 			"update_freq": null, 
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
+		},
+		"111809": {
+			"id": 111809, 
+			"index": "green_land", 
+			"history_data": false, 
+			"history_data_color": null,
+			"map_config": null, 
+			"chart_config": {
+				"color": ["#00ff00", "#ff0000"], 
+				"types": ["DistrictChart"],
+				"unit": "單位",
+				"categories": [], 
+				"map_filter": null
+			},
+			"name": "綠化指數", 
+			"source": "???", 
+			"time_from": "2003-01-01", 
+			"time_to": "2022-01-01", 
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "???", 
+			"long_desc": "???", 
+			"use_case": "???", 
+			"links": [], 
+			"tags": ["..."], 
+			"contributors": ["tuic"] 
 		}
 	}
 }
