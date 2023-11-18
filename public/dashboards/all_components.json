@@ -4183,7 +4183,7 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#9c7a3e"], 
-				"types": ["LineChart"], 
+				"types": ["LineChart", "ColumnChart"], 
 				"unit": "千度", 
 				"categories": [], 
 				"map_filter": null
@@ -4209,7 +4209,7 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#9c7a3e"], 
-				"types": ["ColumnChart", "TimelineStackedChart"], 
+				"types": ["TimelineStackedChart", "ColumnChart"], 
 				"unit": "千瓦", 
 				"categories": [], 
 				"map_filter": null
@@ -4285,7 +4285,7 @@
 			],
 			"chart_config": {
 				"color": ["#addd27", "#424548"], 
-				"types": ["DistrictChart"], 
+				"types": ["DistrictChart", "ColumnChart"], 
 				"unit": "千瓦",
 				"categories": [], 
 				"map_filter": [
@@ -4329,7 +4329,7 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#ff0000", "#00ff00", "#0000ff"], 
-				"types": ["TimelineStackedChart"],
+				"types": ["TimelineStackedChart", "ColumnChart"],
 				"unit": "千瓦",
 				"categories": [], 
 				"map_filter": null
@@ -4389,6 +4389,22 @@
 				}
 			],
 			"name": "水汙染", 
+			"source": "???", 
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null, 
+			"update_freq_unit": null,  
+			"contributors": ["tuic"] 
+		},
+        "111911": {
+			"id": 111911, 
+			"index": "bubble_test",  
+			"chart_config": {
+                "color": ["#7CB4B8", "#70F8BA", "#CAFE48"],
+				"types": ["BubbleChart"],
+                "unit":"個"
+			},
+			"name": "bubble_test", 
 			"source": "???", 
 			"time_from": null,
 			"time_to": null,
