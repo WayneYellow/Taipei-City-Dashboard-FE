@@ -4183,7 +4183,7 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#9c7a3e"], 
-				"types": ["LineChart"], 
+				"types": ["LineChart", "ColumnChart"], 
 				"unit": "千度", 
 				"categories": [], 
 				"map_filter": null
@@ -4209,7 +4209,7 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#9c7a3e"], 
-				"types": ["ColumnChart", "TimelineStackedChart"], 
+				"types": ["TimelineStackedChart", "ColumnChart"], 
 				"unit": "千瓦", 
 				"categories": [], 
 				"map_filter": null
@@ -4262,15 +4262,15 @@
 					"paint": {
 						"circle-opacity": 0.6,
 						"circle-stroke-opacity": 0.6,
-						"circle-color": "#addd27",
+						"circle-color": "#4675ff  ",
 						"circle-radius": [
 							"interpolate",
 							["linear"],
 							["to-number", ["get", "capacity"]],
 							0,
 							0,
-							200,
-							60
+							100,
+							40
 						]
 					},
 					"property": [
@@ -4284,8 +4284,8 @@
 				}
 			],
 			"chart_config": {
-				"color": ["#addd27", "#424548"], 
-				"types": ["DistrictChart"], 
+				"color": ["#4675ff  "], 
+				"types": ["DistrictChart", "ColumnChart"], 
 				"unit": "千瓦",
 				"categories": [], 
 				"map_filter": [
@@ -4329,8 +4329,8 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#ff0000", "#00ff00", "#0000ff"], 
-				"types": ["TimelineStackedChart"],
-				"unit": "千瓦",
+				"types": ["TimelineSeparateChart", "HeatmapChart", "ColumnChart"],
+				"unit": "百萬瓦",
 				"categories": [], 
 				"map_filter": null
 			},
@@ -4374,28 +4374,64 @@
 					"type": "circle", 
 					"size": null, 
 					"icon": null
+				},
+				{
+					"index": "riverArea",
+					"paint": {
+						"fill-color": "#1e90ff"
+					},
+					"property": null,
+					"title": "河流", 
+					"type": "fill"
 				}
 			],
 			"chart_config": {
-				"types": ["MapLegend"]
+				"color": ["#addd27"], 
+				"types": ["ColumnChart"], 
+				"unit": "單位", 
+				"categories": [], 
+				"map_filter": [
+				"station",
+					[
+						"大直橋",
+						"大豐停車場",
+						"山豬窟溪",
+						"永福橋",
+						"成功橋",
+						"承德橋",
+						"恆光橋",
+						"復興橋",
+						"景美橋",
+						"菁礐溪",
+						"陽明山",
+						"新貴子坑",
+						"萬福橋",
+						"臺北橋",
+						"磺溪橋",
+						"雙溪取水口"
+					]
+				]
 			},
-			"chart_data": [
-				{
-					"color": "#addd27",
-					"type": "fill",
-					"name": "高潛勢", 
-					"value": null, 
-					"unit": null
-				}
-			],
 			"name": "水汙染", 
 			"source": "???", 
 			"time_from": null,
 			"time_to": null,
+			"short_desc": "提供歷史測站水汙染指標。",
+			"long_desc": "透過追蹤水汙染指標，提供全面的水質數據，包括不同地區、水域的變化趨勢。這使政策制定者能夠快速回應突發的水質問題，制定有針對性的防治措施，確保城市居民的飲用水安全及環境健康。",
+			"use_case": "...", 
 			"update_freq": null, 
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
 		},
+        "111911": {
+			"id": 111911, 
+			"index": "bubble_test",  
+			"chart_config": {
+                "color": ["#7CB4B8", "#70F8BA", "#CAFE48"],
+				"types": ["BubbleChart"],
+                "unit":"個"
+			},
+			"name": "bubble_test", 
 		"111808": {
 			"id": 111808, 
 			"index": "factory",  
@@ -4405,7 +4441,7 @@
 					"paint": {
 						"circle-opacity": 0.6,
 						"circle-stroke-opacity": 0.6,
-						"circle-color": "#addd27"
+						"circle-color": "#ffc40c"
 						
 					},
 					"property": [
@@ -4422,7 +4458,7 @@
 			},
 			"chart_data": [
 				{
-					"color": "#addd27",
+					"color": "#ffc40c",
 					"type": "fill",
 					"name": "工廠分布", 
 					"value": null, 
@@ -4445,9 +4481,8 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#00ff00", "#ff0000"], 
-				"types": ["DistrictChart"],
+				"types": ["DistrictChart", "RadarChart"],
 				"unit": "單位",
-				"categories": [], 
 				"map_filter": null
 			},
 			"name": "綠化指數", 
@@ -4463,5 +4498,5 @@
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
 		}
-	}
+	}}
 }

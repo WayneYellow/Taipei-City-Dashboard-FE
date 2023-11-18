@@ -11,6 +11,7 @@ export const chartTypes = {
 	GuageChart: "量表圖",
 	RadarChart: "雷達圖",
 	HeatmapChart: "熱力圖",
-	test: "test",
 	LineChart: "折線圖",
+    BubbleChart: "氣泡圖",
+    
 };
