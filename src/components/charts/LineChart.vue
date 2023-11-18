@@ -8,6 +8,7 @@ const props = defineProps(["chart_config", "activeChart", "series"]);
 
 const chartOptions = ref({
 	chart: {
+		stacked: true,
 		toolbar: {
 			show: false,
 			tools: {
@@ -66,7 +67,7 @@ const chartOptions = ref({
 		// axisTicks: {
 		// 	show: false,
 		// },
-		// crosshairs: {
+		// crosshairs: {// 虛線
 		// 	show: false,
 		// },
 		tooltip: {

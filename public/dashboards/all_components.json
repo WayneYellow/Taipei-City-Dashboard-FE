@@ -4220,7 +4220,7 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#9c7a3e"], 
-				"types": ["TimelineSeparateChart"], 
+				"types": ["LineChart"], 
 				"unit": "千度", 
 				"categories": [], 
 				"map_filter": null
@@ -4321,11 +4321,17 @@
 				}
 			],
 			"chart_config": {
-				"types": ["BarPercentChart", "GuageChart"],
-				"color": ["#9DC56E", "#356340", "#9DC56E"],
-				"unit": "千瓦",
-				"categories": ["太陽能發電設備"]
-			},
+				"types": ["MapLegend"]
+			}, 
+			"chart_data": [
+				{
+					"types": "fill",
+					"color": "#addd27",
+					"unit": null,
+					"value": null,
+					"name": "太陽能發電設備"
+				}
+			],
 			"source": "",
 			"name": "太陽能發電設備",
 			"time_from": "2023-05-31T00:00:00+08:00",
