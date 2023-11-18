@@ -40,7 +40,7 @@ const districtData = computed(() => {
 		
 	}
 	output.highest = highest;
-	sum = sum.toFixed(2); // "14781.59"
+	sum = sum.toFixed(0); // "14781.59"
 	output.sum = sum;
 	return output;
 });

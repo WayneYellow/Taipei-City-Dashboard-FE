@@ -54,7 +54,7 @@ const chartOptions = ref({
 		},
 		categories: props.chart_config.categories ? props.chart_config.categories : [],
 		labels: {
-			offsetY: 5,
+			offsetY: 0,
 		},
 		type: 'category',
 	},

@@ -64,7 +64,7 @@ const chartOptions = ref({
 		},
 	},
 	dataLabels: {
-		distributed: true,
+		distributed: false,
 		style: {
 			fontSize: '12px',
 			fontWeight: 'normal'
@@ -82,6 +82,7 @@ const chartOptions = ref({
 	},
 	plotOptions: {
 		heatmap: {
+			distributed: true,
 			enableShades: false,
 			radius: 4,
 			colorScale: {
