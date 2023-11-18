@@ -45,13 +45,13 @@
 		{
 			"name": "測試組件",
 			"index": "testing",
-			"components": ["117", "118", "61", "74"],
+			"components": ["201", "202", "111811"],
 			"icon": "bug_report"
 		},
 		{
 			"name": "20231118",
 			"index": "20231118",
-			"components": ["111801", "111802", "111803", "111804"],
+			"components": ["111802", "111803", "111804"],
 			"icon": "bug_report"
 		},
 		{

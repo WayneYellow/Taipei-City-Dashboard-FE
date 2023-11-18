@@ -4174,36 +4174,7 @@
 			],
 			"contributors": ["tuic"]
 		},
-		"111801": {
-			"id": 111801, 
-			"index": "floodingMap", 
-			"map_config": [
-				{
-					"index": "floodingMap",
-					
-					"paint": {
-						"fill-color": "#e30022"
-					},
-					"property": [
-						
-					], 
-					"title": "易淹水區域", 
-					"type": "fill", 
-					"size": null
-				}
-			],
-			"chart_config": {
-				"types": ["MapLegend"]
-			}, 
-			"chart_data": null,
-			"name": "易淹水區域", 
-			"source": "待更新", 
-			"time_from": null, 
-			"time_to": null, 
-			"update_freq": null, 
-			"update_freq_unit": null,  
-			"contributors": ["tuic"] 
-		},
+		
 		"111802": {
 			"id": 111802, 
 			"index": "electronic",
@@ -4212,15 +4183,15 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#9c7a3e"], 
-				"types": ["TimelineSeparateChart"], 
+				"types": [ "ColumnChart"], 
 				"unit": "千度", 
 				"categories": [], 
 				"map_filter": null
 			},
-			"name": "再生能源發電量/太陽光電(千度)", 
+			"name": "再生能源發電量", 
 			"source": "台電", 
-			"time_from": "2023-01-01T23:59:59+08:00", 
-			"time_to": "2023-05-01T23:59:59+08:00", 
+			"time_from": "2018-01-01T00:00:00Z", 
+			"time_to": "2022-01-01T00:00:00Z", 
 			"update_freq": null, 
 			"update_freq_unit": null,
 			"short_desc": "...",
@@ -4238,15 +4209,15 @@
 			"map_config": null, 
 			"chart_config": {
 				"color": ["#9c7a3e"], 
-				"types": ["ColumnChart"], 
+				"types": ["ColumnChart", "TimelineStackedChart"], 
 				"unit": "千瓦", 
 				"categories": [], 
 				"map_filter": null
 			},
 			"name": "裝置容量", 
 			"source": "台電", 
-			"time_from": "2023-01-01T23:59:59+08:00", 
-			"time_to": "2023-05-01T23:59:59+08:00", 
+			"time_from": "2017", 
+			"time_to": "2022", 
 			"update_freq": null, 
 			"update_freq_unit": null,
 			"short_desc": "...",
@@ -4271,8 +4242,8 @@
 			},
 			"name": "價格", 
 			"source": "台電", 
-			"time_from": "2023-01-01T23:59:59+08:00", 
-			"time_to": "2023-05-01T23:59:59+08:00", 
+			"time_from": "2017", 
+			"time_to": "2023", 
 			"update_freq": null, 
 			"update_freq_unit": null,
 			"short_desc": "...",
@@ -4332,6 +4303,32 @@
 			],
 			"tags": [],
 			"contributors": ["tuic"]
+		},
+        "111811": {
+			"id": 111811, 
+			"index": "electronic",
+			"history_data": false, 
+			"history_data_color": null, 
+			"map_config": null, 
+			"chart_config": {
+				"color": ["#9c7a3e", "#67baca"], 
+				"types": [ "test"], 
+				"unit": "千度", 
+				"categories": ["總容量", "再生能源發電量/太陽光電(千度)"], 
+				"map_filter": null
+			},
+			"name": "再生能源發電量/太陽光電(千度)", 
+			"source": "台電", 
+			"time_from": "2018-01-01T00:00:00Z", 
+			"time_to": "2022-01-01T00:00:00Z", 
+			"update_freq": null, 
+			"update_freq_unit": null,
+			"short_desc": "...",
+			"long_desc": "...", 
+			"use_case": "...", 
+			"links": [], 
+			"tags": ["..."], 
+			"contributors": ["tuic"] 
 		}
 	}
 }
