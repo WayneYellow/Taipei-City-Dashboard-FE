@@ -25,8 +25,8 @@ const chartOptions = ref({
 	plotOptions: {
 		bubble: {
             zScaling: false,
-            minBubbleRadius: undefined,
-            maxBubbleRadius: undefined,
+            minBubbleRadius: 10,
+            maxBubbleRadius: 30,
     }
 	},
 	dataLabels:{
@@ -36,10 +36,9 @@ const chartOptions = ref({
 	tooltip: {
 		custom: function ({ series, seriesIndex, dataPointIndex, w }) {
 			return (
-              '<div class="chart-tooltip">' +
-              '<h6>X: ' + w.config.series[seriesIndex].data[dataPointIndex].x +
-                'Y:'+w.config.series[seriesIndex].data[dataPointIndex].y +  '</h6>' +
-              '<span>Z: ' + w.config.series[seriesIndex].data[dataPointIndex].z + '</span>'+
+              '<div class="chart-tooltip">'  +
+                '<h6>太陽能裝置容量: '+ w.config.series[seriesIndex].data[dataPointIndex].z+' 十萬瓦</h6>'+
+              '<span>' + w.config.series[seriesIndex].name + '</span>'+
               '</div>'
             );
 		},
@@ -57,6 +56,12 @@ const chartOptions = ref({
 		labels: {
 			show: true,
 		},
+        title:{
+            text: "平方公尺",
+            style:{
+                color: "#4CAF50", 
+            }
+        }
 	},
 });
 </script>
