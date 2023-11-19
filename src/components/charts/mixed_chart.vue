@@ -16,7 +16,7 @@ const chartOptions = ref({
 	},
 	colors: props.chart_config.color,
 	dataLabels: {
-        enabled: false,
+		enabled: false,
 		//enabled: props.chart_config.categories ? false : true,
 		offsetY: 20,
 	},
@@ -59,9 +59,9 @@ const chartOptions = ref({
 			offsetY: 0,
 		},
 		type: 'category',
-        tooltip:{
-            enabled: false
-        }
+		tooltip:{
+			enabled: false
+		}
 	},
 });
 
