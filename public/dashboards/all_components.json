@@ -4412,13 +4412,13 @@
 					]
 				]
 			},
-			"name": "水汙染", 
+			"name": "河川汙染指數", 
 			"source": "臺北市環境品質資訊網", 
-			"time_from": null,
+			"time_from": "2023-07",
 			"time_to": null,
-			"short_desc": "提供歷史測站水汙染指標。",
-			"long_desc": "透過追蹤水汙染指標，提供全面的水質數據，包括不同地區、水域的變化趨勢。這使政策制定者能夠快速回應突發的水質問題，制定有針對性的防治措施，確保城市居民的飲用水安全及環境健康。",
-			"use_case": "...", 
+			"short_desc": "提供臺北市九條河流的河川汙染指標。",
+			"long_desc": "河川汙染指標(RPI)的定義是以水中溶氧量 （DO）、生化需氧量（BOD5）、懸浮固體（SS）、與氨氮(NH3-N）等四項水質參數之濃度值，經計算所得之指數積分值。2以下為未受汙染，2到3為輕度，3到6為中度，6以上為重度。透過追蹤河川汙染指標，對汙染有針對性的防治，以達到永續發展的目標。",
+			"use_case": "使用者可以透過此圖快速識別突發的水質惡化、影響區域以及源頭。", 
 			"update_freq": null, 
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
@@ -4498,6 +4498,31 @@
 			"links": [], 
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
-		}
+		}, 
+        "111912":{
+            "id": 111912, 
+            "index": "mix_test",
+            "history_data": false, 
+			"history_data_color": null,
+			"map_config": null, 
+            "chart_config": {
+				"color": ["#00ff00", "#ff0000"], 
+				"types": ["mixed_chart"],
+				"unit": "單位",
+				"map_filter": null
+			},
+            "name": "疊圖測試",
+            "source": "???", 
+			"time_from": "2003-01-01", 
+			"time_to": "2022-01-01", 
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "???", 
+			"long_desc": "???", 
+			"use_case": "???", 
+			"links": [], 
+			"tags": ["..."], 
+			"contributors": ["tuic"] 
+        }
     }
 }

@@ -13,5 +13,5 @@ export const chartTypes = {
 	HeatmapChart: "熱力圖",
 	LineChart: "折線圖",
     BubbleChart: "氣泡圖",
-    
+    mixed_chart: "折線疊長條圖",
 };
