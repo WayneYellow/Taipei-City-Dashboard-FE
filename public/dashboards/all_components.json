@@ -4476,17 +4476,12 @@
 				}
 			],
 			"chart_config": {
-				"types": ["MapLegend"]
+				"color": ["#addd27"], 
+				"types": ["ColumnChart"], 
+				"unit": "間", 
+				"categories": [], 
+				"map_filter": null
 			},
-			"chart_data": [
-				{
-					"color": "#ffc40c",
-					"type": "fill",
-					"name": "工廠分布", 
-					"value": null, 
-					"unit": null
-				}
-			],
 			"name": "工廠分布", 
 			"source": "臺北市政府產業發展局", 
 			"time_from": null,
