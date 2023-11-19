@@ -82,9 +82,11 @@ function fixOpacity(opacity) {
 <template>
 	<div v-if="activeChart === 'DistrictChart'" class="districtchart">
 		<div class="districtchart-title">
-			<h5>總合</h5>
-			<h6>{{ districtData.sum }} {{ chart_config.unit }}</h6>
-			<p>{{ districtData.record }}</p>
+			<div v-if="chart_config.unit !== '單位'">
+				<h5>總合</h5>
+				<h6>{{ districtData.sum }} {{ chart_config.unit }}</h6>
+			</div>
+			
 			<div class="districtchart-title-legend">
 				<p>多</p>
 				<div :style="{ backgroundColor: props.chart_config.color[0] }"></div>

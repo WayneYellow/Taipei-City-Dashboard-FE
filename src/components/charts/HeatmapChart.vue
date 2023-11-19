@@ -39,22 +39,22 @@ const heatmapData = computed(() => {
 	return output;
 });
 
-const colorScale = computed(() => {
-	const ranges = props.chart_config.color.map((el, index) => (
-		{
-			to: Math.floor((heatmapData.value.highest / props.chart_config.color.length) * (props.chart_config.color.length - index)),
-			from: Math.floor((heatmapData.value.highest / props.chart_config.color.length) * (props.chart_config.color.length - index - 1)) + 1,
-			color: el
-		}
-	)
-	);
-	ranges.unshift({
-		to: 0,
-		from: 0,
-		color: "#444444"
-	});
-	return ranges;
-});
+// const colorScale = computed(() => {
+// 	const ranges = props.chart_config.color.map((el, index) => (
+// 		{
+// 			to: Math.floor((heatmapData.value.highest / props.chart_config.color.length) * (props.chart_config.color.length - index)),
+// 			from: Math.floor((heatmapData.value.highest / props.chart_config.color.length) * (props.chart_config.color.length - index - 1)) + 1,
+// 			color: el
+// 		}
+// 	)
+// 	);
+// 	ranges.unshift({
+// 		to: 0,
+// 		from: 0,
+// 		color: "#444444"
+// 	});
+// 	return ranges;
+// });
 
 const chartOptions = ref({
 	chart: {
@@ -86,7 +86,8 @@ const chartOptions = ref({
 			enableShades: false,
 			radius: 4,
 			colorScale: {
-				ranges: colorScale.value,
+				ranges: [{ from: 0, to: 5, color: "#001F00", name: "l1" },{ from: 5, to: 10, color: "#0B2E00", name: "l2" },{ from: 10, to: 15, color: "#163D00", name: "l3" },{ from: 15, to: 20, color: "#215C00", name: "l4" },{ from: 20, to: 25, color: "#2C6B00", name: "l5" },{ from: 25, to: 30, color: "#377A00", name: "l6" },{ from: 30, to: 35, color: "#428900", name: "l7" },{ from: 35, to: 40, color: "#4D9800", name: "l8" },{ from: 40, to: 45, color: "#58A700", name: "l9" },{ from: 45, to: 50, color: "#00A100", name: "l10" },{ from: 50, to: 55, color: "#001836", name: "m1" },{ from: 55, to: 60, color: "#1f2c4c", name: "m2" },{ from: 60, to: 65, color: "#3d4283", name: "m3" },{ from: 65, to: 70, color: "#5b5abf", name: "m4" },{ from: 70, to: 75, color: "#7a83f8", name: "m5" },{ from: 75, to: 80, color: "#8fb2ff", name: "m6" },{ from: 80, to: 85, color: "#a5e0ff", name: "m7" },{ from: 85, to: 90, color: "#bbffff", name: "m8" },{ from: 90, to: 95, color: "#d2ffff", name: "m9" },{ from: 95, to: 100, color: "#e9ffFF", name: "m10" },{ from: 100, to: 115, color: "#241900", name: "h1" },{ from: 115, to: 130, color: "#4D2E00", name: "h2" },{ from: 130, to: 145, color: "#784300", name: "h3" },{ from: 145, to: 160, color: "#A65C00", name: "h4" },{ from: 160, to: 175, color: "#D97400", name: "h5" },{ from: 175, to: 190, color: "#FF8D00", name: "h6" },{ from: 190, to: 205, color: "#FFA600", name: "h7" },{ from: 205, to: 220, color: "#FFBF00", name: "h8" },{ from: 220, to: 235, color: "#FFD800", name: "h9" },{ from: 235, to: 250, color: "#FFF100", name: "h10" }
+				],
 			}
 		},
 	},
