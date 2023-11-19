@@ -4671,6 +4671,41 @@
 			"long_desc": "空氣污染指標(Air Pollution Index, API)是以空氣中懸浮微粒(PM10)、細懸浮微粒(PM2.5)、臭氧(O3)、一氧化碳(CO)、二氧化硫(SO2)、二氧化氮(NO2)等六項空氣污染物濃度值，經計算所得之指數積分值。0到50為良好，51到100為普通，101到150為對敏感族群不健康，151到200為對所有族群不健康，201到300為非常不健康，301以上為危害。透過追蹤空氣污染指標，對汙染有針對性的防治，以達到永續發展的目標。", 
 			"use_case": "使用者可以透過此圖快速識別空氣污染。",  
 			"contributors": ["tuic"] 
+		},
+        "111917": {
+			"id": 111917,
+			"index": "factory_and_green",
+			"history_data": false,
+			"chart_config": {
+				"color": [
+                    "#4CAF50",
+                    "#43A047",
+                    "#388E3C",
+                    "#2E7D32",
+                    "#1B5E20",
+                    "#43A047",
+                    "#66BB6A",
+                    "#81C784",
+                    "#A5D6A7",
+                    "#C8E6C9",
+                    "#E8F5E9",
+                    "#F1F8E9"
+                  ],
+				"types": ["BubbleChart"],
+				"unit": ""
+			},
+			"name": "工廠分布和植被覆蓋率",
+			"source": "產業局、環保署",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示臺北市內各行政區的綠化程度與工廠分布",
+			"long_desc": "顯示臺北市內各行政區的綠化程度與工廠分布，綠化程度的評估方法是植被覆蓋率。",
+			"use_case": "透過此圖使用者可以快速掌握臺北植被覆蓋率最低同時工廠分布最多的地區。",
+			"links": ["https://data.taipei/dataset/detail?id=c8215f0d-20fa-4350-bcd9-da82432c2c9d"],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
     }	
 }
