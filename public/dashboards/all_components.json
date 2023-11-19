@@ -4573,6 +4573,50 @@
 			],
 			"tags": [],
 			"contributors": ["tuic"]
+		},
+		"111914": {
+			"id": 111914,
+			"index": "factory_number",
+			"history_data": false,
+			"chart_config": {
+				"color": ["#4dd97a", "#ff8c1a", "#EC4037"],
+				"types": ["DistrictChart"],
+				"unit": "座"
+			},
+			"name": "工廠數量",
+			"source": "產業局",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示臺北市內各行政區的工廠數量",
+			"long_desc": "",
+			"use_case": "",
+			"links": ["https://data.taipei/dataset/detail?id=c8215f0d-20fa-4350-bcd9-da82432c2c9d"],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"111915": {
+			"id": 111915,
+			"index": "green_and_solar",
+			"history_data": false,
+			"chart_config": {
+				"color": ["#4dd97a", "#ff8c1a", "#EC4037"],
+				"types": ["BubbleChart"],
+				"unit": ""
+			},
+			"name": "綠化與太陽能",
+			"source": "產業局",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "顯示臺北市內各行政區的綠化程度與太陽能裝置容量",
+			"long_desc": "",
+			"use_case": "",
+			"links": ["https://data.taipei/dataset/detail?id=c8215f0d-20fa-4350-bcd9-da82432c2c9d"],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
-    }
+    }	
 }
