@@ -4657,17 +4657,10 @@
 				}
 			],
 			"chart_config": {
-				"types": ["MapLegend"]
-			},
-			"chart_data": [
-				{
-					"color": "#c87a74",
-					"type": "fill",
-					"name": "測站", 
-					"value": null, 
-					"unit": null
-				}
-			], 
+				"color": ["#4dd97a", "#ff8c1a", "#EC4037"],
+				"types": ["ColumnChart"],
+				"unit": "單位"
+			}, 
 			"name": "空氣污染指標", 
 			"source": "臺北市政府環境保護局", 
 			"time_from": null,
