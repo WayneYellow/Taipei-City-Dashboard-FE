@@ -4471,7 +4471,10 @@
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null, 
-			"update_freq_unit": null,  
+			"update_freq_unit": null, 
+			"short_desc": "台北市內的各工廠分布圖", 
+			"long_desc": "各個工廠的分布圖，可以看出台北市內的工廠分布情形", 
+			"use_case": "可以看出台北市內的工廠分布情形",  
 			"contributors": ["tuic"] 
 		},
 		"111809": {
@@ -4492,9 +4495,9 @@
 			"time_to": "2022-01-01", 
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "???", 
-			"long_desc": "???", 
-			"use_case": "???", 
+			"short_desc": "各行政區的綠化程度指數", 
+			"long_desc": "各行政區的綠化程度指數，可以看出各行政區的綠化程度", 
+			"use_case": "可以看出各行政區的綠化程度", 
 			"links": [], 
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
@@ -4523,6 +4526,32 @@
 			"links": [], 
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
-        }
+        },
+		
+		"301": {
+			"id": 301,
+			"index": "renewable_energy",
+			"history_data": true,
+			"history_data_color": ["#EC4037", "#BBB"],
+			"chart_config": {
+				"color": ["#4dd97a", "#ff8c1a", "#EC4037"],
+				"types": ["DonutChart", "BarChart"],
+				"unit": "千度"
+			},
+			"name": "再生能源發電量",
+			"source": "主計處",
+			"time_from": "2011-01-01T00:00:00+08:00",
+			"time_to": "2022-01-01T00:00:00+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "顯示近十年來每年臺北市的再生能源發電量",
+			"long_desc": "顯示近十年來每年臺北市的再生能源發電量，單位為千度/每年。資料來源為主計處，更新頻率為每年一次。",
+			"use_case": "使用者可以藉由表上發電量的趨勢來評估目前再生能源發展的狀況，進而了解臺北是否朝著永續發展的目標前進。",
+			"links": [
+				"https://data.taipei/dataset/detail?id=2382fa35-52a2-4137-8b09-9f7f1c3a14cd"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		}
     }
 }
