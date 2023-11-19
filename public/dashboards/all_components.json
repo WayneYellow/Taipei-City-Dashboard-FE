@@ -4477,7 +4477,7 @@
 			],
 			"chart_config": {
 				"color": ["#ffc40c"], 
-				"types": ["ColumnChart"], 
+				"types": ["DistrictChart","ColumnChart" ], 
 				"unit": "間", 
 				"categories": [], 
 				"map_filter": null
