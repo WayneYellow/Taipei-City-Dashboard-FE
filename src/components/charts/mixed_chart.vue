@@ -14,18 +14,6 @@ const chartOptions = ref({
 			show: false
 		},
 	},
-    series:[
-        {
-            name: props.series.data[0].name,
-            type: "line", 
-            data: props.series.data[0].data
-        },
-        {
-            name: props.series.data[1].name,
-            type: "bar", 
-            data: props.series.data[1].data
-        },
-    ],
 	colors: props.chart_config.color,
 	dataLabels: {
 		enabled: false,
@@ -77,8 +65,6 @@ const chartOptions = ref({
 	},
 });
 
-
-
 const selectedIndex = ref(null);
 
 function handleDataSelection(e, chartContext, config) {
@@ -98,7 +84,7 @@ function handleDataSelection(e, chartContext, config) {
 
 <template>
 	<div v-if="activeChart === 'mixed_chart'">
-		<apexchart width="100%" height="270px" :options="chartOptions" 
+		<apexchart width="100%" height="270px" :options="chartOptions" :series="series"
 			@dataPointSelection="handleDataSelection"></apexchart>
 	</div>
 </template>
