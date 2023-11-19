@@ -24,6 +24,7 @@ const chartOptions = ref({
 	},
 	legend: {
 		show: props.series.length > 1 ? true : false,
+		// show: true
 	},
 	markers: {
 		hover: {
