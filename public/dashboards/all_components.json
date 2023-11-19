@@ -4498,6 +4498,31 @@
 			"links": [], 
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
+		},
+		"301": {
+			"id": 301,
+			"index": "renewable_energy",
+			"history_data": true,
+			"history_data_color": ["#EC4037", "#BBB"],
+			"chart_config": {
+				"color": ["#4dd97a", "#ff8c1a", "#EC4037"],
+				"types": ["DonutChart", "BarChart"],
+				"unit": "千度"
+			},
+			"name": "再生能源發電量",
+			"source": "主計處",
+			"time_from": "2011-01-01T00:00:00+08:00",
+			"time_to": "2022-01-01T00:00:00+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "",
+			"long_desc": "",
+			"use_case": "",
+			"links": [
+				"https://data.taipei/dataset/detail?id=2382fa35-52a2-4137-8b09-9f7f1c3a14cd"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
 		}
     }
 }
