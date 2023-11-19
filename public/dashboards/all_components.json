@@ -4622,7 +4622,7 @@
 					"paint": {
 						"circle-opacity": 0.6,
 						"circle-stroke-opacity": 0.6,
-						"circle-color": "#addd27",
+						"circle-color": "#c87a74",
 						"circle-radius": [
 							"interpolate",
 							["linear"],
