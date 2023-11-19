@@ -36,6 +36,7 @@ import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
 import LineChart from "./components/charts/LineChart.vue";
 import BubbleChart from "./components/charts/BubbleChart.vue";
+import mixed_chart from "./components/charts/mixed_chart.vue";
 
 const app = createApp(App);
 
@@ -60,5 +61,6 @@ app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
 app.component("LineChart", LineChart);
 app.component("BubbleChart", BubbleChart);
+app.component("mixed_chart", mixed_chart);
 
 app.mount("#app");
