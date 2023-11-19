@@ -68,6 +68,6 @@ const chartOptions = ref({
 
 <template>
 	<div v-if="activeChart === 'BubbleChart'">
-		<apexchart width="100%" :height=250 type="bubble" :options="chartOptions" :series="series"></apexchart>
+		<apexchart width="100%" :height=350 type="bubble" :options="chartOptions" :series="series"></apexchart>
 	</div>
 </template>
