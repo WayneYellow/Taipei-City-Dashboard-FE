@@ -4476,7 +4476,7 @@
 				}
 			],
 			"chart_config": {
-				"color": ["#addd27"], 
+				"color": ["#ffc40c"], 
 				"types": ["ColumnChart"], 
 				"unit": "間", 
 				"categories": [], 
@@ -4650,7 +4650,7 @@
 				{
 					"color": "#c87a74",
 					"type": "fill",
-					"name": "高潛勢", 
+					"name": "測站", 
 					"value": null, 
 					"unit": null
 				}
