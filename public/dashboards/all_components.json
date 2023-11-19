@@ -4612,6 +4612,59 @@
 			"links": ["https://data.taipei/dataset/detail?id=c8215f0d-20fa-4350-bcd9-da82432c2c9d"],
 			"tags": [],
 			"contributors": ["tuic"]
+		},
+		"111916": {
+			"id": 111916, 
+			"index": "air",  
+			"map_config": [
+				{
+					"index": "air",
+					"paint": {
+						"circle-opacity": 0.6,
+						"circle-stroke-opacity": 0.6,
+						"circle-color": "#addd27",
+						"circle-radius": [
+							"interpolate",
+							["linear"],
+							["to-number", ["get", "API"]],
+							10,
+							15,
+							15,
+							20
+						]
+					},
+					"property": [
+						{ "key": "station", "name": "檢測站" },
+						{ "key": "API", "name": "API" }
+					],
+					"title": "空氣污染指標", 
+					"type": "circle", 
+					"size": null, 
+					"icon": null
+				}
+			],
+			"chart_config": {
+				"types": ["MapLegend"]
+			},
+			"chart_data": [
+				{
+					"color": "#c87a74",
+					"type": "fill",
+					"name": "高潛勢", 
+					"value": null, 
+					"unit": null
+				}
+			], 
+			"name": "空氣污染指標", 
+			"source": "臺北市政府環境保護局", 
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null, 
+			"update_freq_unit": null, 
+			"short_desc": "台北市內空氣品質的指標", 
+			"long_desc": "空氣污染指標(Air Pollution Index, API)是以空氣中懸浮微粒(PM10)、細懸浮微粒(PM2.5)、臭氧(O3)、一氧化碳(CO)、二氧化硫(SO2)、二氧化氮(NO2)等六項空氣污染物濃度值，經計算所得之指數積分值。0到50為良好，51到100為普通，101到150為對敏感族群不健康，151到200為對所有族群不健康，201到300為非常不健康，301以上為危害。透過追蹤空氣污染指標，對汙染有針對性的防治，以達到永續發展的目標。", 
+			"use_case": "使用者可以透過此圖快速識別空氣污染。",  
+			"contributors": ["tuic"] 
 		}
     }	
 }
