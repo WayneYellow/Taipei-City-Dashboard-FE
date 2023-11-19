@@ -55,13 +55,7 @@ const chartOptions = ref({
 		},
 		labels: {
 			show: true,
-		},
-        title:{
-            text: "平方公尺",
-            style:{
-                color: "#4CAF50", 
-            }
-        }
+		}
 	},
 });
 </script>
