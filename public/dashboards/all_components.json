@@ -4471,7 +4471,10 @@
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null, 
-			"update_freq_unit": null,  
+			"update_freq_unit": null, 
+			"short_desc": "台北市內的各工廠分布圖", 
+			"long_desc": "???", 
+			"use_case": "???",  
 			"contributors": ["tuic"] 
 		},
 		"111809": {
@@ -4492,7 +4495,7 @@
 			"time_to": "2022-01-01", 
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "???", 
+			"short_desc": "各行政區的綠化程度指數", 
 			"long_desc": "???", 
 			"use_case": "???", 
 			"links": [], 
