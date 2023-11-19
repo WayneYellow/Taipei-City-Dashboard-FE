@@ -4306,7 +4306,7 @@
 					]
 				]
 			},
-			"source": "",
+			"source": "台電",
 			"name": "太陽能發電設備裝置容量地區圖",
 			"time_from": "2023-05-31T00:00:00+08:00",
 			"time_to": null,
@@ -4467,7 +4467,7 @@
 				}
 			],
 			"name": "工廠分布", 
-			"source": "???", 
+			"source": "臺北市政府產業發展局", 
 			"time_from": null,
 			"time_to": null,
 			"update_freq": null, 
