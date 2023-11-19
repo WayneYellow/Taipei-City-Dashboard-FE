@@ -4418,7 +4418,7 @@
 			"time_to": null,
 			"short_desc": "提供歷史測站水汙染指標。",
 			"long_desc": "透過追蹤水汙染指標，提供全面的水質數據，包括不同地區、水域的變化趨勢。這使政策制定者能夠快速回應突發的水質問題，制定有針對性的防治措施，確保城市居民的飲用水安全及環境健康。",
-			"use_case": "...", 
+			"use_case": "透過本組件可以了解水汙染的狀況", 
 			"update_freq": null, 
 			"update_freq_unit": null,  
 			"contributors": ["tuic"] 
@@ -4473,8 +4473,8 @@
 			"update_freq": null, 
 			"update_freq_unit": null, 
 			"short_desc": "台北市內的各工廠分布圖", 
-			"long_desc": "???", 
-			"use_case": "???",  
+			"long_desc": "各個工廠的分布圖，可以看出台北市內的工廠分布情形", 
+			"use_case": "可以看出台北市內的工廠分布情形",  
 			"contributors": ["tuic"] 
 		},
 		"111809": {
@@ -4496,8 +4496,8 @@
 			"update_freq": null,
 			"update_freq_unit": null,
 			"short_desc": "各行政區的綠化程度指數", 
-			"long_desc": "???", 
-			"use_case": "???", 
+			"long_desc": "各行政區的綠化程度指數，可以看出各行政區的綠化程度", 
+			"use_case": "可以看出各行政區的綠化程度", 
 			"links": [], 
 			"tags": ["..."], 
 			"contributors": ["tuic"] 
@@ -4518,9 +4518,9 @@
 			"time_to": "2022-01-01T00:00:00+08:00",
 			"update_freq": 1,
 			"update_freq_unit": "year",
-			"short_desc": "",
-			"long_desc": "",
-			"use_case": "",
+			"short_desc": "顯示近十年來每年臺北市的再生能源發電量",
+			"long_desc": "顯示近十年來每年臺北市的再生能源發電量，單位為千度/每年。資料來源為主計處，更新頻率為每年一次。",
+			"use_case": "使用者可以藉由表上發電量的趨勢來評估目前再生能源發展的狀況，進而了解臺北是否朝著永續發展的目標前進。",
 			"links": [
 				"https://data.taipei/dataset/detail?id=2382fa35-52a2-4137-8b09-9f7f1c3a14cd"
 			],
