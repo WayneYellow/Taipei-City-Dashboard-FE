@@ -1,0 +1,291 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.540665,
+          25.040152
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "大安站",
+        "positionlon": "121.540665",
+        "positionlat": "25.040152",
+        "API": "30"
+      },
+      "bbox": [
+        "121.540665",
+        "25.040152"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.541539,
+          25.077959
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "大直站",
+        "positionlon": "121.541539",
+        "positionlat": "25.077959",
+        "API": "32"
+      },
+      "bbox": [
+        "121.541539",
+        "25.077959"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5164056,
+          25.03610556
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "中正站",
+        "positionlon": "121.5164056",
+        "positionlat": "25.03610556",
+        "API": "33"
+      },
+      "bbox": [
+        "121.5164056",
+        "25.03610556"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5900667,
+          25.067875
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "內湖站",
+        "positionlon": "121.5900667",
+        "positionlat": "25.067875",
+        "API": "39"
+      },
+      "bbox": [
+        "121.5900667",
+        "25.067875"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5755306,
+          24.98738889
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "木柵站",
+        "positionlon": "121.5755306",
+        "positionlat": "24.98738889",
+        "API": "22"
+      },
+      "bbox": [
+        "121.5755306",
+        "24.98738889"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5718861,
+          25.03595278
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "信義站",
+        "positionlon": "121.5718861",
+        "positionlat": "25.03595278",
+        "API": "40"
+      },
+      "bbox": [
+        "121.5718861",
+        "25.03595278"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6074426,
+          25.0559696
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "南港站",
+        "positionlon": "121.6074426",
+        "positionlat": "25.0559696",
+        "API": "30"
+      },
+      "bbox": [
+        "121.6074426",
+        "25.0559696"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.535,
+          25.10276
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "天母站",
+        "positionlon": "121.535",
+        "positionlat": "25.10276",
+        "API": "30"
+      },
+      "bbox": [
+        "121.535",
+        "25.10276"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51305,
+          25.07443
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "延平站",
+        "positionlon": "121.51305",
+        "positionlat": "25.07443",
+        "API": "33"
+      },
+      "bbox": [
+        "121.51305",
+        "25.07443"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5957201,
+          25.05174402
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "向陽站",
+        "positionlon": "121.5957201",
+        "positionlat": "25.05174402",
+        "API": "39"
+      },
+      "bbox": [
+        "121.5957201",
+        "25.05174402"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5164861,
+          25.09135
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "承德站",
+        "positionlon": "121.5164861",
+        "positionlat": "25.09135",
+        "API": "37"
+      },
+      "bbox": [
+        "121.5164861",
+        "25.09135"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5227167,
+          25.05206389
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "中北站",
+        "positionlon": "121.5227167",
+        "positionlat": "25.05206389",
+        "API": "52"
+      },
+      "bbox": [
+        "121.5227167",
+        "25.05206389"
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "tran_youbike_station_type.fid-12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5164056,
+          25.03610556
+        ]
+      },
+      "geometry_name": "wkb_geometry",
+      "properties": {
+        "station": "中正站",
+        "positionlon": "121.5164056",
+        "positionlat": "25.03610556",
+        "API": "33"
+      },
+      "bbox": [
+        "121.5164056",
+        "25.03610556"
+      ]
+    }
+  ]
+}
